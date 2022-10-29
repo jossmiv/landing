@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: Montserrat;
 }
 p *{
     font-family: Montserrat;
@@ -285,7 +286,9 @@ footer .contenedor{
 }
 .csocial{
     width: 30%;
-    padding-left: 15%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
     
 }
 .csocial a{
@@ -296,21 +299,26 @@ footer .contenedor{
     text-decoration-color:#e4cfbb;
 
 }
-.titulop{
+.titulop h2{
     font-family: Poiret One;
     padding-bottom: 10%;
-    
+    padding-top: 10%;
 }
 .clegal{
     width: 30%;
-    list-style: none;
-    
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+       
 }
-.clegal .titulol{
+.clegal .titulol h2{
     font-family: Poiret One;
     padding-bottom: 10%;
+    padding-top: 10%;
     padding-left: 5%;
+    
 }
+
 .clegal li{
     display: block;
     font-size: 16px;
@@ -318,8 +326,39 @@ footer .contenedor{
     letter-spacing: 1px;
 }
 
-.cnosotros{
-    width: 30%;
-    
+.clegal a{
+    cursor: pointer;
+    text-decoration-line: none;
+    text-decoration-style:none;
+    color: rgb(255, 255, 255);;
+    text-decoration: none;
 }
 
+.cnosotros{
+    width: 30%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cnosotros h2{
+    font-family: Poiret One;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+.cnosotros ul{
+    padding: 0%;
+}
+.cnosotros li{
+    line-height: inherit;
+    display: block;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.cnosotros a{
+    cursor: pointer;
+    text-decoration-line: none;
+    text-decoration-style:none;
+    color: rgb(255, 255, 255);;
+    text-decoration: none;
+}
