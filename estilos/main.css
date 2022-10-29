@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+}
+p *{
+    font-family: Montserrat;
+}
+
+header{
+    position: absolute;
+    height: 2.5cm;
+    width: 100%;
+    background-color: #e4cfbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+header .logo a{
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+header nav a{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: rgb(255, 255, 255);;
+    text-decoration: none;
+    font-weight: 700;
+    
+    
+}
+
+header nav a:visited{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: rgb(255, 255, 255);
+    
+}
+
+header li{
+    display: inline-block;
+    font-size: 16px;
+    line-height: inherit;
+    letter-spacing: 1px;
+}
+
+.logo{
+    padding-bottom: 0;
+    margin-left: 5%;
+    
+}
+.logo img{
+    max-width: 80px;
+    padding-right: 5%;
+    
+}
+.logo p{
+    font-family:Yellowtail;
+    font-size: 40px;
+    letter-spacing: 10px;
+    padding-left: 7px;
+    padding-bottom: 5px;
+    color: #161616;
+
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content:end;
+    list-style: none;
+    width: 100%;
+    font-family: RalewaySBold;
+    padding-right: 3%;
+    
+}
+nav ul li{
+    margin: 5px;
+    margin-right: 25px;
+}
+.contenedor-search{
+    width: 100%;
+    background-image:url('../imagenes/pancakes.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#logo{
+    max-width: 400px;
+    max-height: 400px;
+}
+.buscar{
+    display: flex;
+    align-items: center;
+    height: 1.4cm;
+    padding-left:3% ;
+}
+.buscar img{
+    max-width:45px;
+
+}
+
+#Buscar{
+    border-radius: 8px;
+    padding: 15px;
+    padding-right: 4cm;
+    border: 7px rgba(250, 220, 136, 0.235);
+}
+
+main .contenedor{
+    width: 100%;
+    height: 980px;
+    background-color: rgb(254, 242, 227);
+    text-align: center;
+    
+}
+
+.tmenu {
+    font-family: Poiret One;
+    font-size: 36px;
+    color:#8B384A;
+    padding-top:2%;
+    
+}
+main .contenedor p{
+    font-family:Montserrat;
+    font-size: 16px;
+    padding-top: 15px;
+}
+main.contenedor section{
+    padding: 2%;
+}
+main .contenedor h3{
+    font-size: 28px;
+    font-family: Poiret One;
+    padding: 15px;
+}
+main .contenedor section .roscas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .contenedor section .postres{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 320px;
+    width: 300px;
+    background-color: rgb(236, 224, 210);
+    margin: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    
+}
+.box button{
+    color: #8B384A;
+    background-color: #e6f9f5f3;
+    border-radius: 8px;
+    border-color: #16161623;
+    margin-top: 10px;
+}
+.box button:hover{
+    color: #8B384A;
+    background-color: #e6f9f5f3;
+    border-radius: 8px;
+    border-color: #16161623;
+    margin-top: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.roscas .imagen{
+    width: 100%;
+    height: 240px;
+}
+.imagen img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.postres .p4 .imagen img{
+    height: 220px;
+}
+.postres .p5 .imagen img{
+    height: 220px;
+}
+.postres .p6 .imagen img{
+    height: 220px;
+}
+.adicional .contenedor{
+    width: 100%;
+    height: 450px;
+    background-color: floralwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgc{
+    height: 420px;
+    width: 40%;
+    margin-right: 5%;
+}
+.imgc img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-position: 100% 0%;
+}
+.anuncio{
+    padding-right: 15%;
+    justify-content: center;
+    display: flex;
+}
+.anuncio .titulo{
+    font-family: Poiret One;
+    font-size: 28px;
+    padding-left: 10%;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.contacto #Nombre{
+    margin-top: 5%;
+    width: 35%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(250, 220, 140);
+    margin-left: 20%;
+    background: transparent;
+}
+.contacto #Correo{
+    margin-top: 5%;
+    width: 35%;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20%;
+    background: transparent;
+    border-bottom: 1px solid rgb(250, 220, 170);
+}
+.capt{
+    margin-left: 50%;
+    margin-top: 7%;
+}
+.capt button{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #161616;
+}
+.w-6{
+    width: 1.5rem;
+}
+.h-6{
+    width: 1.5rem;
+}
+footer .contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 8cm;
+    background-color: #8B384A;
+}
+.csocial{
+    width: 30%;
+    
+}
+.csocial a{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-line: none;
+    text-decoration-style:none;
+    text-decoration-color:#e4cfbb;
+}
+.titulop{
+    font-family: ;
+}
+.clegal{
+    width: 30%;
+    
+}
+
+.cnosotros{
+    width: 30%;
+    
+}
+
