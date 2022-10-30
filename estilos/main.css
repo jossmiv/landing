@@ -293,10 +293,11 @@ footer .contenedor{
 }
 .csocial a{
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-line: none;
     text-decoration-style:none;
     text-decoration-color:#e4cfbb;
+    letter-spacing: 10px;
 
 }
 .titulop h2{
@@ -315,15 +316,15 @@ footer .contenedor{
     font-family: Poiret One;
     padding-bottom: 10%;
     padding-top: 10%;
-    padding-left: 5%;
+    padding-left: 14%;
+    text-align: center;
     
 }
 
 .clegal li{
     display: block;
     font-size: 16px;
-    line-height: inherit;
-    letter-spacing: 1px;
+    line-height: 40px;
 }
 
 .clegal a{
@@ -354,6 +355,7 @@ footer .contenedor{
     display: block;
     letter-spacing: 1px;
     font-size: 16px;
+    line-height: 30px;
 }
 .cnosotros a{
     cursor: pointer;
