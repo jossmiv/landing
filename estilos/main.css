@@ -15,6 +15,44 @@ header{
     align-items: center;
     justify-content: center;   
 }
+@media screen and (max-width: 800px) {
+    header{
+        display:grid;
+        width: 100%;
+        align-items: center;
+        height:fit-content;
+        flex-direction: row;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    header ul{
+        display:grid;
+        width: 100%;
+        align-items: center;
+        height:fit-content;
+        flex-direction: row;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    header ul li{
+        display:grid;
+        width: 100%;
+        align-items: center;
+        height:fit-content;
+        flex-direction: row;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    header ul li a{
+        display:grid;
+        width: 100%;
+        align-items: center;
+        height:fit-content;
+        flex-direction: row;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
 header .logo a{
     cursor: pointer;
     text-decoration: none;
@@ -32,8 +70,6 @@ header nav a{
     color: rgb(255, 255, 255);;
     text-decoration: none;
     font-weight: 700;
-    
-    
 }
 
 header nav a:visited{
@@ -52,6 +88,7 @@ header li{
     line-height: inherit;
     letter-spacing: 1px;
 }
+
 
 .logo{
     padding-bottom: 0;
@@ -97,11 +134,24 @@ nav ul li{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+@media screen and (max-width:800px) {
+     .contenedor-search {
+        flex-direction: column;
+        padding-top:270px;
+        height:720px;
+    }
+    #logos{
+        padding-top: 100px;
 
+    }
+}
+.espacio{
+    color:rgb(255, 255, 255);
 }
 
-#logo{
-    max-width: 400px;
+#logos{
+    width: 400px;
     max-height: 400px;
 }
 .buscar{
@@ -127,22 +177,28 @@ main .contenedor{
     height: 980px;
     background-color: rgb(254, 242, 227);
     text-align: center;
-    
 }
+@media screen and (max-width: 800px) {
+     main .contenedor section .roscas .postres{
+        display: grid;
+        align-items: center;
+        height:fit-content;
+        flex-direction: row;
+     }
+    }
 
 .tmenu {
     font-family: Poiret One;
     font-size: 36px;
     color:#8B384A;
     padding-top:2%;
-    
 }
 main .contenedor p{
     font-family:Montserrat;
     font-size: 16px;
     padding-top: 15px;
 }
-main.contenedor section{
+main .contenedor section{
     padding: 2%;
 }
 main .contenedor h3{
@@ -154,7 +210,7 @@ main .contenedor section .roscas{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}   
 
 main .contenedor section .postres{
     display: flex;
@@ -169,8 +225,18 @@ main .contenedor section .postres{
     margin: 15px;
     margin-left: 30px;
     margin-right: 30px;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
+}
+@media screen and (max-width:800px) {
+    .box{
+        width: 100%;
+        height:350px;
+        flex-direction: row;
+        margin: 0;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
 .box button{
     color: #8B384A;
@@ -209,26 +275,15 @@ main .contenedor section .postres{
 }
 .adicional .contenedor{
     width: 100%;
-    height: 450px;
+    height: 600px;
     background-color: floralwhite;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.imgc{
-    height: 420px;
-    width: 40%;
-    margin-right: 5%;
-}
-.imgc img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-position: 100% 0%;
-}
+
+
 .anuncio{
-    padding-right: 15%;
     justify-content: center;
     display: flex;
 }
@@ -238,6 +293,29 @@ main .contenedor section .postres{
     padding-left: 10%;
     text-align: center;
     padding-bottom: 25px;
+}
+@media screen and (max-width:800px) {
+    .adicional .contenedor{ 
+       display: grid;
+       height:fit-content;
+       width: 100%;
+       flex-direction: row;
+       justify-content: center;
+       position: relative;
+    }
+   .adicional .contenedor .anuncio{
+       width: 100%;
+       padding: 0;
+       text-align: center;
+       height:260px;
+       padding-top: 5%;
+
+   }
+   .adicional .contenedor .anuncio .titulo{
+       padding: 10%;
+       padding-bottom: 5%;
+       padding-top: 0;
+   }
 }
 .contacto #Nombre{
     margin-top: 5%;
@@ -249,6 +327,11 @@ main .contenedor section .postres{
     margin-left: 20%;
     background: transparent;
 }
+@media screen and (max-width: 800px) {
+    .contacto #Nombre {
+        margin-left: 10%;
+    }
+}
 .contacto #Correo{
     margin-top: 5%;
     width: 35%;
@@ -259,6 +342,12 @@ main .contenedor section .postres{
     background: transparent;
     border-bottom: 1px solid rgb(250, 220, 170);
 }
+@media screen and (max-width: 800px) {
+    .contacto #Correo {
+        margin-left: 10%;
+    }
+}
+
 .capt{
     margin-left: 50%;
     margin-top: 7%;
@@ -269,6 +358,43 @@ main .contenedor section .postres{
     height: 40px;
     border-radius: 10px;
     border: 1px solid #161616;
+}
+@media screen and (max-width:800px) {
+    .capt{
+        margin: 0;
+        padding-top: 5%;
+        padding-bottom: 7%;
+        }
+}
+
+.imgc{
+    height: 420px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 10%;
+}
+.imgc img{
+    object-fit: cover;
+    width: 80%;
+    height: 90%;
+    display: block;
+    object-position: 100% 0%;
+}
+@media screen and (max-width:800px) {
+    .imgc{
+        justify-content: center;
+        width: 100%;
+        height:550px;
+        margin-top: 170px;
+    }
+    .imgc img{
+        width: 80%;  
+        margin: 0%;
+        padding: 0%;   
+        object-fit: cover;
+        object-position: 100% 20%;  
+    }
+    
 }
 .w-6{
     width: 1.5rem;
@@ -284,6 +410,17 @@ footer .contenedor{
     height: 8cm;
     background-color: #8B384A;
 }
+@media screen and (max-width:800px) {
+    footer .contenedor{
+        position: relative;
+        height:fit-content;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
 .csocial{
     width: 30%;
     text-align: center;
@@ -294,12 +431,24 @@ footer .contenedor{
 .csocial a{
     cursor: pointer;
     text-decoration: none;
-    text-decoration-line: none;
-    text-decoration-style:none;
     text-decoration-color:#e4cfbb;
     letter-spacing: 10px;
-
 }
+@media screen and (max-width:800px) {
+   .csocial a{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 2%;
+   } 
+}
+.csocial a{        
+    margin: 0;
+    margin-top: 5%;
+    letter-spacing:-5px;
+}
+}
+
 .titulop h2{
     font-family: Poiret One;
     padding-bottom: 10%;
@@ -312,17 +461,20 @@ footer .contenedor{
     margin-right: 5%;
        
 }
+.titulol{
+    width: 100%;
+    height: 60px;
+}
 .clegal .titulol h2{
     font-family: Poiret One;
-    padding-bottom: 10%;
-    padding-top: 10%;
-    padding-left: 14%;
-    text-align: center;
     
+}
+.clegal ul{
+    padding: 0%;
 }
 
 .clegal li{
-    display: block;
+    list-style: none;
     font-size: 16px;
     line-height: 40px;
 }
@@ -333,7 +485,14 @@ footer .contenedor{
     text-decoration-style:none;
     color: rgb(255, 255, 255);;
     text-decoration: none;
+    width: 100%;
 }
+@media screen and (max-width:800px) {
+    .clegal ul li a .tyc{
+        text-indent: 6px;
+    }
+}
+
 
 .cnosotros{
     width: 30%;
@@ -341,11 +500,15 @@ footer .contenedor{
     margin-left: 5%;
     margin-right: 5%;
 }
+.nosotrost{
+    width: 100%;
+    height: 60px;
+    vertical-align:top;
+
+}
 
 .cnosotros h2{
     font-family: Poiret One;
-    padding-bottom: 10%;
-    padding-top: 10%;
 }
 .cnosotros ul{
     padding: 0%;
@@ -368,9 +531,9 @@ footer .contenedor{
     background-color: #8B384A;
     text-align: center;
     width: 100%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 hr{
-    border-color: #8d4454;
+    border: 1px solid rgb(236, 224, 210);
 }
