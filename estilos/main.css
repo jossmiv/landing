@@ -419,14 +419,13 @@ footer .contenedor{
         text-align: center;
         padding-top: 5%;
         padding-bottom: 5%;
-    }
+    }}
 
 .csocial{
     width: 30%;
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
-    
 }
 .csocial a{
     cursor: pointer;
@@ -441,12 +440,6 @@ footer .contenedor{
     justify-content: center;
     letter-spacing: 2%;
    } 
-}
-.csocial a{        
-    margin: 0;
-    margin-top: 5%;
-    letter-spacing:-5px;
-}
 }
 
 .titulop h2{
